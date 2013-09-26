@@ -15,7 +15,7 @@ function KnowBangladesh( slideData ){
 KnowBangladesh.prototype.goto = function( slideNumber ){
 
 	if( slideNumber < 0 || slideNumber > ( this.dataArr.length -1 ) ) {
-		alert( "Slide out of range!" );
+		this.showError( "Slide out of range!" );
 		return false;
 	}
 
@@ -31,7 +31,7 @@ KnowBangladesh.prototype.goto = function( slideNumber ){
 KnowBangladesh.prototype.next = function(){
 
 	if( this.currentSlide == this.dataArr.length - 1 ) {
-		alert( "No more slides!" );
+		this.showError( "No more slides!" );
 		return;
 	}
 
@@ -48,7 +48,7 @@ KnowBangladesh.prototype.next = function(){
 KnowBangladesh.prototype.previous = function(){
 
 	if( this.currentSlide == 0 ) {
-		alert( "No more slides!" );
+		this.showError("No more slides!");
 		return;
 	}
 
@@ -98,4 +98,32 @@ KnowBangladesh.prototype._isEmpty = function( subject ){
 
 	return false;
 
+};
+
+KnowBangladesh.prototype.prepareInfo = function(){
+
+	var slideObject = this.dataArr[ this.currentSlide ];
+
+	// Photo
+	var markup = "<b>Photo Source: </b>";
+	
+	markup += ( this._isEmpty( slideObject.imgCredit ) ) ? ( "None" ) : ( slideObject.imgCredit );
+	markup += "<br />";
+
+	// Text
+	
+	markup += "<b>Text Source: </b>";
+	
+	markup += ( this._isEmpty( slideObject.txtCredit ) ) ? ( "None" ) : ( slideObject.txtCredit );
+	markup += "<br />";
+
+	// Inject Markup
+
+	$( "#infoP" ).html( markup );
+
+};
+
+KnowBangladesh.prototype.showError = function( msg ){
+	$("#errorP").html( msg );
+	$("#errorDiv").popup( "open" );
 };

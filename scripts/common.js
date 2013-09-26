@@ -43,6 +43,29 @@ $(document).on( "tap", "li", function(event, uiElem){
 			appInstance.goto( 0 );
 			break;
 
+		case "endBtn":
+			appInstance.goto( appInstance.dataArr.length - 1 );
+			break;
+
+		case "prevBtn":
+			appInstance.previous();
+			break;
+
+		case "nextBtn":
+			appInstance.next();
+			break;
+
+		case "infoBtn":
+			$("#menuDiv").popup( "close" );
+			appInstance.prepareInfo();
+			setTimeout( function(){
+				$("#infoDiv").popup( "open" );
+			}, 1000 );
+			
+			break;
+
+
+
 	}
 
 } );

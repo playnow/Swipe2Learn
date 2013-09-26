@@ -33,14 +33,34 @@
 			
 			<ul data-role="listview" >
 				<li id="homeBtn" data-icon="home" ><a>Home</a></li>	
-				<li id="prevBtn" data-icon="arrow-l" ><a href="#" >Previous</a></li>	
-				<li id="nextBtn" data-icon="arrow-r" ><a href="#" >Next</a></li>	
+				<!-- <li id="prevBtn" data-icon="arrow-l" ><a href="#" >Previous</a></li>	
+				<li id="nextBtn" data-icon="arrow-r" ><a href="#" >Next</a></li>	 -->
 				<li id="endBtn" data-icon="grid" ><a href="#" >End</a></li>	
 				<li id="historyBtn" ><a href="#" >Jump to History</a></li>
 				<li id="placesBtn" ><a href="#" >Jump to Places</a></li>
+				<li id="infoBtn" data-icon="info" ><a href="#" >Slide Info...</a></li>
 				<li id="aboutBtn" ><a href="#" >About</a></li>	
 			</ul>
 
+		</div>
+
+		<div data-role="popup" data-overlay-theme="a" data-theme="c" data-dismissible="false" style="max-width:400px;" class="ui-corner-all" id="infoDiv" >
+
+			<div data-role="header" data-theme="a" class="ui-corner-top">
+        		<h1>Slide Info</h1>
+    		</div>
+
+    		<div data-role="content" data-theme="d" class="ui-corner-bottom ui-content">
+		        
+		        <p id="infoP"></p>
+
+		        <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="b">Ok</a>
+		        
+    		</div>
+		</div>
+
+		<div data-role="popup" id="errorDiv" data-theme = "e" >
+			<p id="errorP" ></p>
 		</div>
 
 	</div>
