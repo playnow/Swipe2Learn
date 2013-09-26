@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"w",
+				"width"
+			],
+			[
+				"img",
+				"imgCredit"
+			],
+			[
+				"slide",
+				"slideObject"
+			],
+			[
+				"slid",
+				"slideObject"
+			],
+			[
+				"ne",
+				"next"
+			],
+			[
+				"sli",
+				"slideData"
+			],
+			[
+				"h",
+				"href	Attr"
+			],
+			[
 				"back",
 				"Background"
 			],
@@ -22,10 +50,6 @@
 			[
 				"nex",
 				"Next"
-			],
-			[
-				"slide",
-				"slideObject"
 			],
 			[
 				"prot",
@@ -51,7 +75,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 997,
+				"buffer_size": 1998,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,7 +83,7 @@
 			"file": "scripts/common.js",
 			"settings":
 			{
-				"buffer_size": 344,
+				"buffer_size": 975,
 				"line_ending": "Unix"
 			}
 		},
@@ -67,7 +91,7 @@
 			"file": "scripts/KnowBangladesh.js",
 			"settings":
 			{
-				"buffer_size": 1417,
+				"buffer_size": 2322,
 				"line_ending": "Unix"
 			}
 		},
@@ -75,7 +99,7 @@
 			"file": "styles/site.css",
 			"settings":
 			{
-				"buffer_size": 551,
+				"buffer_size": 612,
 				"line_ending": "Unix"
 			}
 		},
@@ -83,7 +107,7 @@
 			"file": "scripts/data.js",
 			"settings":
 			{
-				"buffer_size": 427,
+				"buffer_size": 745,
 				"line_ending": "Unix"
 			}
 		}
@@ -115,13 +139,14 @@
 	},
 	"file_history":
 	[
+		"/media/sobkichu/Development/mozillabd/scripts/common.js",
 		"/home/shantanu/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/shantanu/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/shantanu/.config/sublime-text-3/Packages/User/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -135,6 +160,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"alert"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -152,7 +178,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -161,15 +187,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 997,
+						"buffer_size": 1998,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								503,
-								503
+								1922,
+								1922
 							]
 						],
 						"settings":
@@ -178,7 +204,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 561.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -189,15 +215,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 344,
+						"buffer_size": 975,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								859,
+								859
 							]
 						],
 						"settings":
@@ -205,7 +231,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 612.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -216,15 +242,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1417,
+						"buffer_size": 2322,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								767,
-								767
+								812,
+								812
 							]
 						],
 						"settings":
@@ -233,7 +259,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 663.0,
+						"translation.y": 408.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -244,15 +270,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 551,
+						"buffer_size": 612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								140,
-								140
+								398,
+								398
 							]
 						],
 						"settings":
@@ -271,23 +297,23 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 427,
+						"buffer_size": 745,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								340,
-								340
+								567,
+								567
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 2.0,
+						"translation.y": 243.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -297,7 +323,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -329,7 +355,7 @@
 	"project": "bangladesh.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":

@@ -19,10 +19,14 @@ var slides = [
 	// 1
 
 	{
-		title	: "About this app",
-		desc	: "<p>\
+		title		: "Cox's Bazar",
+		desc		: "<p>\
+						 Known for its wide and long sandy beach. \
+						 Today, Cox's Bazar is one of the most-visited tourist destinations in Bangladesh. \
 					</p>",
-		img		: "1.jpg"
+		img			: "p_cb.jpg",
+		imgCredit	: "http://en.wikipedia.org/wiki/File:Cox%27s_Bazar_boats.jpg",
+		txtCredit	: "http://en.wikipedia.org/wiki/Cox%27s_Bazar"
 
 	},
 
