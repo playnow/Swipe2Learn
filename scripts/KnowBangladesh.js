@@ -9,6 +9,22 @@ function KnowBangladesh( slideData ){
 }
 
 /**
+ * Go to Slide
+ */
+
+KnowBangladesh.prototype.goto = function( slideNumber ){
+
+	if( slideNumber < 0 || slideNumber > ( this.dataArr.length -1 ) ) {
+		alert( "Slide out of range!" );
+		return false;
+	}
+
+	this.currentSlide = slideNumber;
+	this.changeSlide();
+
+};
+
+/**
  * Next Slide
  */
 

@@ -19,35 +19,36 @@
 </head>
 <body>
 
-<div data-role="page" id="mainDiv" >
+<div data-role="page">
 
 	<div id="background" data-role="content">
 		
 		<h1 id="title" ></h1>
 
-		<div id="desc" ></div>
-
-
-		<!-- Menu -->
-		<div data-role="popup" id="menuDiv"  >
+		<div id="desc" >
 			
-			<ul data-role="listview" >
-				<li id="homeBtn" data-icon="home" ><a>Home</a></li>	
-				<li id="prevBtn" data-icon="arrow-l" ><a href="#" >Previous</a></li>	
-				<li id="nextBtn" data-icon="arrow-r" ><a href="#" >Next</a></li>	
-				<li id="endBtn" data-icon="grid" ><a href="#" >End</a></li>	
-				<li id="historyBtn" ><a href="#" >Jump to History</a></li>
-				<li id="placesBtn" ><a href="#" >Jump to Places</a></li>
-				<li id="aboutBtn" ><a href="#" >About</a></li>	
-			</ul>
 
 		</div>
+
+
+		<script type="text/javascript">
+	
+			// $(document).on('pageinit', function() {
+
+			// 	appInstance.prevPage = "pRev";
+			// 	appInstance.nextPage = "toc.html";
+
+			// 	// background
+			// 	// $.backstretch("images/1.jpg");
+			// });
+
+
+		</script>
 
 	</div>
 
 	
 </div>
-
 
 
 
